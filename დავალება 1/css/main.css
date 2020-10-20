@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main .head {
+  position: relative;
+  background: url("../images/bg.png");
+  background-size: cover;
+  width: 100%;
+  padding-top: 74px;
+  height: 428px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+main .head .wrapper > h1 {
+  font-size: 34px;
+  color: #fff;
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-weight: 100;
+}
+main .head .wrapper > p {
+  margin-top: 21px;
+  font-size: 18px;
+  font-family: "Raleway Medium", sans-serif;
+  color: #fff;
+}
+main .head .wrapper .subscribe {
+  margin-top: 61px;
+  display: flex;
+}
+main .head .wrapper .subscribe input {
+  width: 430px;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  background: transparent;
+  font-size: 18px;
+  height: 42px;
+  color: #fff;
+  padding: 24px;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Raleway Medium", sans-serif;
+}
+main .head .wrapper .subscribe input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+main .head .wrapper .subscribe .btn {
+  border-radius: 25px;
+  background: #fff;
+  height: 50px;
+  padding: 0 36px;
+  color: #0085e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-left: 20px;
+  font-family: "Raleway Medium", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+main .head .wrapper .subscribe .btn:hover {
+  opacity: 0.8;
+}
+main section > .title {
+  margin-top: 67px;
+  text-align: center;
+}
+main section > .title p {
+  font-size: 16px;
+  font-family: "Raleway-SemiBold", sans-serif;
+  color: #8d8d8d;
+}
+main section > .title h1 {
+  margin-top: 7px;
+  position: relative;
+  font-size: 26px;
+  color: #1a1a1b;
+  font-family: "Raleway-SemiBold", sans-serif;
+}
+main section > .title h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -10px;
+  height: 6px;
+  width: 48px;
+  background: url("../images/Shape 1.png");
+}
+main section .blocks {
+  margin-top: 82px;
+  display: flex;
+  justify-content: center;
+}
+main section .blocks .block {
+  text-align: center;
+  width: 368px;
+  height: 409px;
+  margin: 30px;
+  background: whitesmoke;
+  box-sizing: border-box;
+}
+main section .blocks .block .user {
+  margin-top: 54px;
+}
+main section .blocks .block .title {
+  font-size: 18px;
+  font-family: "Raleway-SemiBold", sans-serif;
+  color: #4b54fa;
+  margin: 10px 0;
+}
+main section .blocks .block .text {
+  width: 296px;
+  margin: auto;
+  font-size: 16px;
+  color: #1a1a1b;
+  font-family: "Raleway-SemiBold", sans-serif;
+}
+main section .blocks .block img.forma {
+  margin-top: 54px;
+}

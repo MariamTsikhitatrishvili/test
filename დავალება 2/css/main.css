@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main section.contact {
+  display: flex;
+}
+main section.contact .block {
+  padding-top: 99px;
+  padding-left: 125px;
+  box-sizing: border-box;
+  width: 50%;
+  height: 845px;
+}
+main section.contact .block:first-child {
+  background: #eff2fb;
+}
+main section.contact .block:first-child .wrapper {
+  width: 422px;
+}
+main section.contact .block:first-child .wrapper span {
+  font-size: 14px;
+  font-family: "Arimo", sans-serif;
+  color: #2c2c2c;
+}
+main section.contact .block:first-child .wrapper h1 {
+  margin-top: 3px;
+  font-size: 50px;
+  font-family: "Arimo Bold", sans-serif;
+  font-weight: 100;
+  color: #2c2c2c;
+}
+main section.contact .block:first-child .wrapper p {
+  margin-top: 48px;
+  font-size: 18px;
+  font-family: "Arimo", sans-serif;
+  color: #535353;
+}
+main section.contact .block:last-child {
+  background: #555555;
+  padding-left: 0;
+}
+main section.contact .block:last-child .head {
+  width: 412px;
+  margin: auto;
+}
+main section.contact .block:last-child .head span {
+  font-size: 12px;
+  color: #f0644c;
+  font-family: "Arimo", sans-serif;
+}
+main section.contact .block:last-child .head h1 {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Arimo Bold", sans-serif;
+  color: #fff;
+  margin-top: 10px;
+}
+main section.contact .block:last-child form {
+  width: 412px;
+  margin: 55px auto;
+}
+main section.contact .block:last-child form input {
+  height: 62px;
+}
+main section.contact .block:last-child form textarea {
+  height: 121px;
+  padding-top: 18px !important;
+}
+main section.contact .block:last-child form input,
+main section.contact .block:last-child form textarea {
+  width: 100%;
+  padding: 0 15px 0 30px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  margin-top: 8px;
+  border: none;
+  border-radius: 1px;
+}
+main section.contact .block:last-child form button {
+  margin-top: 35px;
+  background: #f0644c;
+  border: none;
+  height: 66px;
+  width: 176px;
+  color: #fff;
+  border-radius: 1px;
+  cursor: pointer;
+  outline: none;
+  transition: box-shadow 0.4s ease;
+}
+main section.contact .block:last-child form button:hover {
+  box-shadow: 0 0 16px #f0644c;
+}
